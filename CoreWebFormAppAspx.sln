@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWebFormAppAspx", "CoreWebFormAppAspx\CoreWebFormAppAspx.csproj", "{958DE8CA-1354-4A7C-A6C6-26A7A317F417}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{EB0DE85A-0FE1-4213-8B32-AB2179E56CD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{14D11BA3-90AB-45E8-BDBF-E680B35FE152}"
+	ProjectSection(SolutionItems) = preProject
+		CoreWebFormAppAspx\Global.asax = CoreWebFormAppAspx\Global.asax
+		CoreWebFormAppAspx\Global.asax.cs = CoreWebFormAppAspx\Global.asax.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console Application", "Console Application", "{CB14FFDD-AEF9-4F44-BFE5-BE871AF678B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{8ED33103-6AD2-466F-A02D-94FFE624C8C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppPdfToImg", "ConsoleAppPdfToImg\ConsoleAppPdfToImg.csproj", "{43CA3BBE-27CC-4A45-AB33-0C14C860D863}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignUpForm_Swapnil", "SignUpForm_Swapnil\SignUpForm_Swapnil.csproj", "{E53AF29C-7729-4C8E-9219-8D0095E748EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{958DE8CA-1354-4A7C-A6C6-26A7A317F417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958DE8CA-1354-4A7C-A6C6-26A7A317F417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958DE8CA-1354-4A7C-A6C6-26A7A317F417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958DE8CA-1354-4A7C-A6C6-26A7A317F417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ED33103-6AD2-466F-A02D-94FFE624C8C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED33103-6AD2-466F-A02D-94FFE624C8C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED33103-6AD2-466F-A02D-94FFE624C8C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED33103-6AD2-466F-A02D-94FFE624C8C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43CA3BBE-27CC-4A45-AB33-0C14C860D863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43CA3BBE-27CC-4A45-AB33-0C14C860D863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43CA3BBE-27CC-4A45-AB33-0C14C860D863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43CA3BBE-27CC-4A45-AB33-0C14C860D863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53AF29C-7729-4C8E-9219-8D0095E748EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53AF29C-7729-4C8E-9219-8D0095E748EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53AF29C-7729-4C8E-9219-8D0095E748EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53AF29C-7729-4C8E-9219-8D0095E748EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{958DE8CA-1354-4A7C-A6C6-26A7A317F417} = {EB0DE85A-0FE1-4213-8B32-AB2179E56CD8}
+		{14D11BA3-90AB-45E8-BDBF-E680B35FE152} = {EB0DE85A-0FE1-4213-8B32-AB2179E56CD8}
+		{8ED33103-6AD2-466F-A02D-94FFE624C8C4} = {CB14FFDD-AEF9-4F44-BFE5-BE871AF678B2}
+		{43CA3BBE-27CC-4A45-AB33-0C14C860D863} = {CB14FFDD-AEF9-4F44-BFE5-BE871AF678B2}
+		{E53AF29C-7729-4C8E-9219-8D0095E748EB} = {14D11BA3-90AB-45E8-BDBF-E680B35FE152}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45063AB2-FB91-4B69-98F9-22A02335AEDB}
+	EndGlobalSection
+EndGlobal
